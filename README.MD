@@ -33,5 +33,5 @@
 - [] add taskController file
 - [] export createTask functions
 - [] import controller
-- [] import userRoutes as userRouter in the app.js
-- [] setup app.use('/api/v1/users', userRouter)
+- [] import taskRoutes as taskRouter in the app.js
+- [] setup app.use('/api/v1/', taskRouter)
